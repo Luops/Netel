@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    /* CSS Reset */
+    box-sizing: border-box;
+    background-color: var(--preto_fundo);
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+:root {
+    --preto_fundo:#101010;
+    --bordo_box: #C14000;
+    --verde_box:#009987;
+    --laranja_box:#FFAA00;
+    --texto_branco:#FFFFFF;
+    --texto_cinza:#737373;
+    --cinza_claro:#C4C4C4;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+    width: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20%;
+}
+
+nav#container-navegacao{
+    display: flex;
+    align-items: flex-end;
+    font-size: 20px;
+    padding: 15px;
+    width: 50%; 
+}
+
+section#container-banner{
+    padding-left: 300px;
+    height: 40rem;
+    align-items: center;
+    background: url(./img/banner.jpg);
+    background-size:cover;
+}
+
+
+h2#titulo-bem-vindo {
+    text-align: center;
+    position:absolute;
+    margin:300px;
+}
+
+h2 {
+ text-align: center;
+}
+
+section#container-equipe {
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+section#container-perfis {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+article.container-julia {
+    color: #C14000;
+    display: flex;
+}
+
+img.foto-perfil {
+    width: 75px;
+    border-radius: 100%;
+}
